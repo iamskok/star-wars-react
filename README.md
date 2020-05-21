@@ -1,14 +1,12 @@
-<div align="center">
-  <a href="https://XXX.netlify.app">
-    <h1>✨Star Wars💫</h1>
-  </a>
+<a href="https://star-wars-react.netlify.app">
+  <h1 align="center">✨Star Wars💫</h1>
+</a>
 
-  <p>
-    <a href="https://app.netlify.com/sites/XXX/deploys">
-      <img src="https://api.netlify.com/api/v1/badges/XXX/deploy-status" alt="Netlify Status">
-    </a>
-  </p>
-</div>
+<p align="center">
+  <a href="https://app.netlify.com/sites/star-wars-react/deploys">
+    <img src="https://api.netlify.com/api/v1/badges/f9dd8961-346f-4a3c-aaec-c42c9c463820/deploy-status" alt="Netlify Status">
+  </a>
+</p>
 
 ## Installation
 
@@ -62,3 +60,7 @@ The criteria is as follows:
 * [Browserlist](https://github.com/browserslist/browserslist) is a tool for sharing target browsers between different front-end tools.
 * [use-sound](https://github.com/joshwcomeau/use-sound) a React Hook for Sound Effects.
 * [react-select](https://github.com/JedWatson/react-select) The Select control for React.
+
+## Lighthouse
+
+![Lighthouse results https://lighthouse-dot-webdotdevsite.appspot.com//lh/html?url=https%3A%2F%2Fstar-wars-react.netlify.app](https://raw.githubusercontent.com/iamskok/star-wars-react/master/screenshots/lighthouse-star-wars.png?token=ABHIGD2SBGPGLUQ6EDCTONS6YYBRU "Lighthouse")
