@@ -63,4 +63,4 @@ The criteria is as follows:
 
 ## Lighthouse
 
-![Lighthouse results https://lighthouse-dot-webdotdevsite.appspot.com//lh/html?url=https%3A%2F%2Fstar-wars-react.netlify.app](https://raw.githubusercontent.com/iamskok/star-wars-react/master/screenshots/lighthouse-star-wars.png?token=ABHIGD2SBGPGLUQ6EDCTONS6YYBRU "Lighthouse")
+![Lighthouse results https://lighthouse-dot-webdotdevsite.appspot.com//lh/html?url=https%3A%2F%2Fstar-wars-react.netlify.app](https://i.imgur.com/HBN9HfU.png "Lighthouse")
