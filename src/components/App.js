@@ -15,16 +15,16 @@ import GlobalStyles from '../styles/global'
 
 export default () => {
   // Check if the color mode has previously been selected.
-  const stored = localStorage.getItem(`isDarkMode`)
-  const [isDarkMode, setIsDarkMode] = useState(() =>
+  const stored = localStorage.getItem(`isLightMode`)
+  const [isLightMode, setIsLightMode] = useState(() =>
     stored === `true` ? true : false
   )
 
   const [play] = useSound(clickSound)
 
   const handleColorMode = () => {
-    setIsDarkMode(!isDarkMode)
-    localStorage.setItem(`isDarkMode`, !isDarkMode)
+    setIsLightMode(!isLightMode)
+    localStorage.setItem(`isLightMode`, !isLightMode)
     play()
   }
 
@@ -174,7 +174,7 @@ export default () => {
   }, [firstCharacter, secondCharacter])
 
   return (
-    <ThemeProvider theme={isDarkMode ? darkTheme : lightTheme}>
+    <ThemeProvider theme={isLightMode ? lightTheme : darkTheme}>
       <GlobalStyles />
       <PageContainer>
         <header>
@@ -182,7 +182,7 @@ export default () => {
             <Stars>Star Wars</Stars>
           </Heading>
           <Button onClick={handleColorMode}>
-            {isDarkMode ? `Dark` : `Light`} Mode
+            {isLightMode ? `Light` : `Dark`} Mode
           </Button>
         </header>
         <main>
